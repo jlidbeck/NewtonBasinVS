@@ -1,0 +1,994 @@
+spectralColorSet
+{
+   "_class" : "ColorSet",
+   "_id" : "spectralColorSet",
+   "colors" : [
+      "ff88ff1a",
+      "ff75ff1a",
+      "ff5eff1a",
+      "ff47ff1a",
+      "ff30ff1a",
+      "ff1aff1a",
+      "ff1aff30",
+      "ff1aff4b",
+      "ff1aff62",
+      "ff1aff79",
+      "ff1aff94",
+      "ff1affb3",
+      "ff1affcd",
+      "ff1affe8",
+      "ff1af7ff",
+      "ff1ad9ff",
+      "ff1ab6ff",
+      "ff1a90ff",
+      "ff1a66ff",
+      "ff1a38ff",
+      "ff2d1aff",
+      "ff5e1aff",
+      "ff811aff",
+      "ffd91aff",
+      "ffff1ad9",
+      "ffff1a94",
+      "ffff1a85",
+      "ffff1a40",
+      "ffff531a",
+      "ffffb31a",
+      "ffecff1a",
+      "ff9fff1a"
+   ]
+}
+
+
+orangeColorSet
+{
+   "_class" : "ColorSet",
+   "_id" : "orangeColorSet",
+   "colors" : [
+      "ffff901a",
+      "ffffa31a",
+      "ffffba1a",
+      "ffffd11a",
+      "ffffe81a",
+      "ffffff1a",
+      "ffe8ff1a",
+      "ffcdff1a",
+      "ffb6ff1a",
+      "ff9fff1a"
+   ]
+}
+
+
+threeColorSet
+{
+   "_class" : "ColorSet",
+   "_id" : "threeColorSet",
+   "colors" : [ "ffff901a", "ffffd11a", "ffe8ff1a" ]
+}
+
+
+hueSpinColorSet
+{
+   "_class" : "HueSpinColorSet",
+   "_id" : "hueSpinColorSet",
+   "hueStep" : 45.0,
+   "sat" : 0.80,
+   "size" : 8,
+   "startHue" : 0.0,
+   "val" : 1.0
+}
+
+
+hexTile
+{
+   "_class" : "HexTileColorMap",
+   "_id" : "hexTile",
+   "colorset" : {
+      "_class" : "ColorSet",
+      "_id" : "threeColorSet",
+      "colors" : [ "ffff901a", "ffffd11a", "ffe8ff1a" ]
+   },
+   "offsetX" : 0.0,
+   "offsetY" : 0.0,
+   "periodX" : 1.0,
+   "periodY" : 1.7320,
+   "spotSize" : 0.670,
+   "tileCountX" : 1,
+   "tileCountY" : 3,
+   "tileType" : 4
+}
+
+
+orangeTile
+{
+   "_class" : "TileColorMap",
+   "_id" : "orangeTile",
+   "colorset" : {
+      "_class" : "ColorSet",
+      "_id" : "orangeColorSet",
+      "colors" : [
+         "ffff901a",
+         "ffffa31a",
+         "ffffba1a",
+         "ffffd11a",
+         "ffffe81a",
+         "ffffff1a",
+         "ffe8ff1a",
+         "ffcdff1a",
+         "ffb6ff1a",
+         "ff9fff1a"
+      ]
+   },
+   "offsetX" : 0.0,
+   "offsetY" : 0.0,
+   "periodX" : 2.0,
+   "periodY" : 7.0,
+   "spotSize" : 0.450,
+   "tileCountX" : 2,
+   "tileCountY" : 7,
+   "tileType" : 4
+}
+
+
+blackHole
+{
+   "_class" : "BlackHoleColorMap",
+   "_id" : "blackHole",
+   "innerRadius" : 0.0,
+   "outerRadius" : 1.0,
+   "sunburst" : 5
+}
+
+
+invertMap
+{
+   "_class" : "InvertMap",
+   "_id" : "invertMap",
+   "a" : 0.10,
+   "b" : 0.0,
+   "c" : -0.10
+}
+
+
+spiralMap_2_7
+{
+   "_class" : "LogSpiralTileMap",
+   "_id" : "spiralMap_2_7",
+   "periodX" : 2.0,
+   "periodY" : 7.0
+}
+
+
+mobiusMap
+{
+   "_class" : "MobiusMap",
+   "_id" : "mobiusMap",
+   "a.imag" : 0.0,
+   "a.real" : 1.0,
+   "b.imag" : 0.0,
+   "b.real" : 1.50,
+   "c.imag" : 0.0,
+   "c.real" : 1.0,
+   "d.imag" : 0.0,
+   "d.real" : 1.0
+}
+
+
+wavyMapX
+{
+   "_class" : "WavyMap",
+   "_id" : "wavyMapX",
+   "xfreq" : 1.0,
+   "xmag" : 1.0,
+   "xoff" : 0.0,
+   "yfreq" : 0.0,
+   "ymag" : 0.0,
+   "yoff" : 0.0
+}
+
+
+wavyMapY
+{
+   "_class" : "WavyMap",
+   "_id" : "wavyMapY",
+   "xfreq" : 0.0,
+   "xmag" : 0.0,
+   "xoff" : 0.0,
+   "yfreq" : 1.0,
+   "ymag" : -1.0,
+   "yoff" : 0.0
+}
+
+
+wavyMap2D
+{
+   "_class" : "WavyMap",
+   "_id" : "wavyMap2D",
+   "xfreq" : 1.0,
+   "xmag" : 1.0,
+   "xoff" : 0.0,
+   "yfreq" : 1.0,
+   "ymag" : -1.0,
+   "yoff" : 0.0
+}
+
+
+wavyChainMap
+{
+   "_class" : "ChainableComplexMap",
+   "_id" : "wavyChainMap",
+   "map1" : {
+      "_class" : "WavyMap",
+      "_id" : "wavyMapX",
+      "xfreq" : 1.0,
+      "xmag" : 1.0,
+      "xoff" : 0.0,
+      "yfreq" : 0.0,
+      "ymag" : 0.0,
+      "yoff" : 0.0
+   },
+   "map2" : {
+      "_class" : "WavyMap",
+      "_id" : "wavyMapY",
+      "xfreq" : 0.0,
+      "xmag" : 0.0,
+      "xoff" : 0.0,
+      "yfreq" : 1.0,
+      "ymag" : -1.0,
+      "yoff" : 0.0
+   }
+}
+
+
+orangeSpiral
+{
+   "_class" : "ChainableColorMap",
+   "_id" : "orangeSpiral",
+   "colormap" : {
+      "_class" : "TileColorMap",
+      "_id" : "orangeTile",
+      "colorset" : {
+         "_class" : "ColorSet",
+         "_id" : "orangeColorSet",
+         "colors" : [
+            "ffff901a",
+            "ffffa31a",
+            "ffffba1a",
+            "ffffd11a",
+            "ffffe81a",
+            "ffffff1a",
+            "ffe8ff1a",
+            "ffcdff1a",
+            "ffb6ff1a",
+            "ff9fff1a"
+         ]
+      },
+      "offsetX" : 0.0,
+      "offsetY" : 0.0,
+      "periodX" : 2.0,
+      "periodY" : 7.0,
+      "spotSize" : 0.450,
+      "tileCountX" : 2,
+      "tileCountY" : 7,
+      "tileType" : 4
+   },
+   "map" : {
+      "_class" : "LogSpiralTileMap",
+      "_id" : "spiralMap_2_7",
+      "periodX" : 2.0,
+      "periodY" : 7.0
+   }
+}
+
+
+spectralSpots
+{
+   "_class" : "TileColorMap",
+   "_id" : "spectralSpots",
+   "colorset" : {
+      "_class" : "ColorSet",
+      "_id" : "spectralColorSet",
+      "colors" : [
+         "ff88ff1a",
+         "ff75ff1a",
+         "ff5eff1a",
+         "ff47ff1a",
+         "ff30ff1a",
+         "ff1aff1a",
+         "ff1aff30",
+         "ff1aff4b",
+         "ff1aff62",
+         "ff1aff79",
+         "ff1aff94",
+         "ff1affb3",
+         "ff1affcd",
+         "ff1affe8",
+         "ff1af7ff",
+         "ff1ad9ff",
+         "ff1ab6ff",
+         "ff1a90ff",
+         "ff1a66ff",
+         "ff1a38ff",
+         "ff2d1aff",
+         "ff5e1aff",
+         "ff811aff",
+         "ffd91aff",
+         "ffff1ad9",
+         "ffff1a94",
+         "ffff1a85",
+         "ffff1a40",
+         "ffff531a",
+         "ffffb31a",
+         "ffecff1a",
+         "ff9fff1a"
+      ]
+   },
+   "offsetX" : 0.0,
+   "offsetY" : 0.0,
+   "periodX" : 7.0,
+   "periodY" : 18.0,
+   "spotSize" : 0.450,
+   "tileCountX" : 7,
+   "tileCountY" : 18,
+   "tileType" : 4
+}
+
+
+spiralMap_7_18
+{
+   "_class" : "LogSpiralTileMap",
+   "_id" : "spiralMap_7_18",
+   "periodX" : 7.0,
+   "periodY" : 18.0
+}
+
+
+spectralSpiralSpots
+{
+   "_class" : "ChainableColorMap",
+   "_id" : "spectralSpiralSpots",
+   "colormap" : {
+      "_class" : "TileColorMap",
+      "_id" : "spectralSpots",
+      "colorset" : {
+         "_class" : "ColorSet",
+         "_id" : "spectralColorSet",
+         "colors" : [
+            "ff88ff1a",
+            "ff75ff1a",
+            "ff5eff1a",
+            "ff47ff1a",
+            "ff30ff1a",
+            "ff1aff1a",
+            "ff1aff30",
+            "ff1aff4b",
+            "ff1aff62",
+            "ff1aff79",
+            "ff1aff94",
+            "ff1affb3",
+            "ff1affcd",
+            "ff1affe8",
+            "ff1af7ff",
+            "ff1ad9ff",
+            "ff1ab6ff",
+            "ff1a90ff",
+            "ff1a66ff",
+            "ff1a38ff",
+            "ff2d1aff",
+            "ff5e1aff",
+            "ff811aff",
+            "ffd91aff",
+            "ffff1ad9",
+            "ffff1a94",
+            "ffff1a85",
+            "ffff1a40",
+            "ffff531a",
+            "ffffb31a",
+            "ffecff1a",
+            "ff9fff1a"
+         ]
+      },
+      "offsetX" : 0.0,
+      "offsetY" : 0.0,
+      "periodX" : 7.0,
+      "periodY" : 18.0,
+      "spotSize" : 0.450,
+      "tileCountX" : 7,
+      "tileCountY" : 18,
+      "tileType" : 4
+   },
+   "map" : {
+      "_class" : "LogSpiralTileMap",
+      "_id" : "spiralMap_7_18",
+      "periodX" : 7.0,
+      "periodY" : 18.0
+   }
+}
+
+
+logRingsMap
+{
+   "_class" : "LogRingsColorMap",
+   "_id" : "logRingsMap",
+   "maxVal" : 1.0,
+   "minVal" : 0.0,
+   "sat" : 0.90
+}
+
+
+steel
+{
+   "_class" : "TileColorMap",
+   "_id" : "steel",
+   "colorset" : {
+      "_class" : "ColorSet",
+      "_id" : "spectralColorSet",
+      "colors" : [
+         "ff88ff1a",
+         "ff75ff1a",
+         "ff5eff1a",
+         "ff47ff1a",
+         "ff30ff1a",
+         "ff1aff1a",
+         "ff1aff30",
+         "ff1aff4b",
+         "ff1aff62",
+         "ff1aff79",
+         "ff1aff94",
+         "ff1affb3",
+         "ff1affcd",
+         "ff1affe8",
+         "ff1af7ff",
+         "ff1ad9ff",
+         "ff1ab6ff",
+         "ff1a90ff",
+         "ff1a66ff",
+         "ff1a38ff",
+         "ff2d1aff",
+         "ff5e1aff",
+         "ff811aff",
+         "ffd91aff",
+         "ffff1ad9",
+         "ffff1a94",
+         "ffff1a85",
+         "ffff1a40",
+         "ffff531a",
+         "ffffb31a",
+         "ffecff1a",
+         "ff9fff1a"
+      ]
+   },
+   "offsetX" : 0.0,
+   "offsetY" : 0.0,
+   "periodX" : 13.0,
+   "periodY" : 8.0,
+   "spotSize" : 0.450,
+   "tileCountX" : 13,
+   "tileCountY" : 8,
+   "tileType" : 7
+}
+
+
+chainTest
+{
+   "_class" : "ChainableColorMap",
+   "_id" : "chainTest",
+   "colormap" : {
+      "_class" : "TileColorMap",
+      "_id" : "steel",
+      "colorset" : {
+         "_class" : "ColorSet",
+         "_id" : "spectralColorSet",
+         "colors" : [
+            "ff88ff1a",
+            "ff75ff1a",
+            "ff5eff1a",
+            "ff47ff1a",
+            "ff30ff1a",
+            "ff1aff1a",
+            "ff1aff30",
+            "ff1aff4b",
+            "ff1aff62",
+            "ff1aff79",
+            "ff1aff94",
+            "ff1affb3",
+            "ff1affcd",
+            "ff1affe8",
+            "ff1af7ff",
+            "ff1ad9ff",
+            "ff1ab6ff",
+            "ff1a90ff",
+            "ff1a66ff",
+            "ff1a38ff",
+            "ff2d1aff",
+            "ff5e1aff",
+            "ff811aff",
+            "ffd91aff",
+            "ffff1ad9",
+            "ffff1a94",
+            "ffff1a85",
+            "ffff1a40",
+            "ffff531a",
+            "ffffb31a",
+            "ffecff1a",
+            "ff9fff1a"
+         ]
+      },
+      "offsetX" : 0.0,
+      "offsetY" : 0.0,
+      "periodX" : 13.0,
+      "periodY" : 8.0,
+      "spotSize" : 0.450,
+      "tileCountX" : 13,
+      "tileCountY" : 8,
+      "tileType" : 7
+   },
+   "map" : {
+      "_class" : "InvertMap",
+      "_id" : "invertMap",
+      "a" : 0.10,
+      "b" : 0.0,
+      "c" : -0.10
+   }
+}
+
+
+steelMobius
+{
+   "_class" : "ChainableColorMap",
+   "_id" : "steelMobius",
+   "colormap" : {
+      "_class" : "TileColorMap",
+      "_id" : "steel",
+      "colorset" : {
+         "_class" : "ColorSet",
+         "_id" : "spectralColorSet",
+         "colors" : [
+            "ff88ff1a",
+            "ff75ff1a",
+            "ff5eff1a",
+            "ff47ff1a",
+            "ff30ff1a",
+            "ff1aff1a",
+            "ff1aff30",
+            "ff1aff4b",
+            "ff1aff62",
+            "ff1aff79",
+            "ff1aff94",
+            "ff1affb3",
+            "ff1affcd",
+            "ff1affe8",
+            "ff1af7ff",
+            "ff1ad9ff",
+            "ff1ab6ff",
+            "ff1a90ff",
+            "ff1a66ff",
+            "ff1a38ff",
+            "ff2d1aff",
+            "ff5e1aff",
+            "ff811aff",
+            "ffd91aff",
+            "ffff1ad9",
+            "ffff1a94",
+            "ffff1a85",
+            "ffff1a40",
+            "ffff531a",
+            "ffffb31a",
+            "ffecff1a",
+            "ff9fff1a"
+         ]
+      },
+      "offsetX" : 0.0,
+      "offsetY" : 0.0,
+      "periodX" : 13.0,
+      "periodY" : 8.0,
+      "spotSize" : 0.450,
+      "tileCountX" : 13,
+      "tileCountY" : 8,
+      "tileType" : 7
+   },
+   "map" : {
+      "_class" : "MobiusMap",
+      "_id" : "mobiusMap",
+      "a.imag" : 0.0,
+      "a.real" : 1.0,
+      "b.imag" : 0.0,
+      "b.real" : 1.50,
+      "c.imag" : 0.0,
+      "c.real" : 1.0,
+      "d.imag" : 0.0,
+      "d.real" : 1.0
+   }
+}
+
+
+defaultSketchPath
+{
+   "Blur" : 0.0,
+   "Center.imag" : 0.0,
+   "Center.real" : 0.0,
+   "RMax" : 1.50,
+   "RMin" : 1.40,
+   "Rows" : 3,
+   "WaveAmp" : 0.50,
+   "WaveFreq" : 7.250,
+   "_class" : "RingPath",
+   "_id" : "defaultSketchPath"
+}
+
+
+noname1
+{
+   "_class" : "GridSineBasinFormula",
+   "bailout" : 1.000000000000000e-005,
+   "colormap" : {
+      "_class" : "ChainableColorMap",
+      "_id" : "spectralSpiralSpots",
+      "colormap" : {
+         "_class" : "TileColorMap",
+         "_id" : "spectralSpots",
+         "colorset" : {
+            "_class" : "ColorSet",
+            "_id" : "spectralColorSet",
+            "colors" : [
+               "ff88ff1a",
+               "ff75ff1a",
+               "ff5eff1a",
+               "ff47ff1a",
+               "ff30ff1a",
+               "ff1aff1a",
+               "ff1aff30",
+               "ff1aff4b",
+               "ff1aff62",
+               "ff1aff79",
+               "ff1aff94",
+               "ff1affb3",
+               "ff1affcd",
+               "ff1affe8",
+               "ff1af7ff",
+               "ff1ad9ff",
+               "ff1ab6ff",
+               "ff1a90ff",
+               "ff1a66ff",
+               "ff1a38ff",
+               "ff2d1aff",
+               "ff5e1aff",
+               "ff811aff",
+               "ffd91aff",
+               "ffff1ad9",
+               "ffff1a94",
+               "ffff1a85",
+               "ffff1a40",
+               "ffff531a",
+               "ffffb31a",
+               "ffecff1a",
+               "ff9fff1a"
+            ]
+         },
+         "offsetX" : 0.0,
+         "offsetY" : 0.0,
+         "periodX" : 7.0,
+         "periodY" : 18.0,
+         "spotSize" : 0.450,
+         "tileCountX" : 7,
+         "tileCountY" : 18,
+         "tileType" : 4
+      },
+      "map" : {
+         "_class" : "LogSpiralTileMap",
+         "_id" : "spiralMap_7_18",
+         "periodX" : 7.0,
+         "periodY" : 18.0
+      }
+   },
+   "iterations" : 12
+}
+
+
+noname2
+{
+   "_class" : "RingSineBasinFormula",
+   "bailout" : 1.000000000000000e-005,
+   "colormap" : {
+      "_class" : "ChainableColorMap",
+      "_id" : "spectralSpiralSpots",
+      "colormap" : {
+         "_class" : "TileColorMap",
+         "_id" : "spectralSpots",
+         "colorset" : {
+            "_class" : "ColorSet",
+            "_id" : "spectralColorSet",
+            "colors" : [
+               "ff88ff1a",
+               "ff75ff1a",
+               "ff5eff1a",
+               "ff47ff1a",
+               "ff30ff1a",
+               "ff1aff1a",
+               "ff1aff30",
+               "ff1aff4b",
+               "ff1aff62",
+               "ff1aff79",
+               "ff1aff94",
+               "ff1affb3",
+               "ff1affcd",
+               "ff1affe8",
+               "ff1af7ff",
+               "ff1ad9ff",
+               "ff1ab6ff",
+               "ff1a90ff",
+               "ff1a66ff",
+               "ff1a38ff",
+               "ff2d1aff",
+               "ff5e1aff",
+               "ff811aff",
+               "ffd91aff",
+               "ffff1ad9",
+               "ffff1a94",
+               "ffff1a85",
+               "ffff1a40",
+               "ffff531a",
+               "ffffb31a",
+               "ffecff1a",
+               "ff9fff1a"
+            ]
+         },
+         "offsetX" : 0.0,
+         "offsetY" : 0.0,
+         "periodX" : 7.0,
+         "periodY" : 18.0,
+         "spotSize" : 0.450,
+         "tileCountX" : 7,
+         "tileCountY" : 18,
+         "tileType" : 4
+      },
+      "map" : {
+         "_class" : "LogSpiralTileMap",
+         "_id" : "spiralMap_7_18",
+         "periodX" : 7.0,
+         "periodY" : 18.0
+      }
+   },
+   "iterations" : 1,
+   "roots" : 5.0
+}
+
+
+noname3
+{
+   "_class" : "RingSineBasinFormula",
+   "bailout" : 1.000000000000000e-005,
+   "colormap" : {
+      "_class" : "BlackHoleColorMap",
+      "_id" : "blackHole",
+      "innerRadius" : 0.0,
+      "outerRadius" : 1.0,
+      "sunburst" : 5
+   },
+   "iterations" : 1,
+   "roots" : 5.0
+}
+
+
+noname4
+{
+   "_class" : "RingSineBasinFormula",
+   "bailout" : 1.000000000000000e-005,
+   "colormap" : {
+      "_class" : "LogRingsColorMap",
+      "_id" : "logRingsMap",
+      "maxVal" : 1.0,
+      "minVal" : 0.0,
+      "sat" : 0.90
+   },
+   "iterations" : 1,
+   "roots" : 5.0
+}
+
+
+noname5
+{
+   "NumRoots" : 3,
+   "RootFlags" : -1,
+   "_class" : "UnitBasinFormula",
+   "bailout" : 1.000000000000000e-005,
+   "colormap" : {
+      "_class" : "TileColorMap",
+      "_id" : "orangeTile",
+      "colorset" : {
+         "_class" : "ColorSet",
+         "_id" : "orangeColorSet",
+         "colors" : [
+            "ffff901a",
+            "ffffa31a",
+            "ffffba1a",
+            "ffffd11a",
+            "ffffe81a",
+            "ffffff1a",
+            "ffe8ff1a",
+            "ffcdff1a",
+            "ffb6ff1a",
+            "ff9fff1a"
+         ]
+      },
+      "offsetX" : 0.0,
+      "offsetY" : 0.0,
+      "periodX" : 2.0,
+      "periodY" : 7.0,
+      "spotSize" : 0.450,
+      "tileCountX" : 2,
+      "tileCountY" : 7,
+      "tileType" : 4
+   },
+   "iterations" : 25
+}
+
+
+noname6
+{
+   "NumRoots" : 3,
+   "RootFlags" : 1,
+   "_class" : "UnitBasinFormula",
+   "bailout" : 0.268060,
+   "colormap" : {
+      "_class" : "TileColorMap",
+      "_id" : "orangeTile",
+      "colorset" : {
+         "_class" : "ColorSet",
+         "_id" : "orangeColorSet",
+         "colors" : [
+            "ffff901a",
+            "ffffa31a",
+            "ffffba1a",
+            "ffffd11a",
+            "ffffe81a",
+            "ffffff1a",
+            "ffe8ff1a",
+            "ffcdff1a",
+            "ffb6ff1a",
+            "ff9fff1a"
+         ]
+      },
+      "offsetX" : 0.0,
+      "offsetY" : 0.0,
+      "periodX" : 2.0,
+      "periodY" : 7.0,
+      "spotSize" : 0.450,
+      "tileCountX" : 2,
+      "tileCountY" : 7,
+      "tileType" : 4
+   },
+   "iterations" : 115
+}
+
+
+noname7
+{
+   "NumRoots" : 6,
+   "RootFlags" : 21,
+   "_class" : "TracedUnitBasinFormula",
+   "bailout" : 0.00010,
+   "colormap" : {
+      "_class" : "TileColorMap",
+      "_id" : "orangeTile",
+      "colorset" : {
+         "_class" : "ColorSet",
+         "_id" : "orangeColorSet",
+         "colors" : [
+            "ffff901a",
+            "ffffa31a",
+            "ffffba1a",
+            "ffffd11a",
+            "ffffe81a",
+            "ffffff1a",
+            "ffe8ff1a",
+            "ffcdff1a",
+            "ffb6ff1a",
+            "ff9fff1a"
+         ]
+      },
+      "offsetX" : 0.0,
+      "offsetY" : 0.0,
+      "periodX" : 2.0,
+      "periodY" : 7.0,
+      "spotSize" : 0.450,
+      "tileCountX" : 2,
+      "tileCountY" : 7,
+      "tileType" : 4
+   },
+   "iterations" : 25,
+   "tracer" : -42
+}
+
+
+noname8
+{
+   "_class" : "SineBasinFormula",
+   "bailout" : 0.00010,
+   "colormap" : {
+      "_class" : "BlackHoleColorMap",
+      "_id" : "blackHole",
+      "innerRadius" : 0.0,
+      "outerRadius" : 1.0,
+      "sunburst" : 5
+   },
+   "iterations" : 10
+}
+
+
+noname9
+{
+   "_class" : "LnFormula",
+   "bailout" : 1.000000000000000e-005,
+   "colormap" : {
+      "_class" : "TileColorMap",
+      "_id" : "orangeTile",
+      "colorset" : {
+         "_class" : "ColorSet",
+         "_id" : "orangeColorSet",
+         "colors" : [
+            "ffff901a",
+            "ffffa31a",
+            "ffffba1a",
+            "ffffd11a",
+            "ffffe81a",
+            "ffffff1a",
+            "ffe8ff1a",
+            "ffcdff1a",
+            "ffb6ff1a",
+            "ff9fff1a"
+         ]
+      },
+      "offsetX" : 0.0,
+      "offsetY" : 0.0,
+      "periodX" : 2.0,
+      "periodY" : 7.0,
+      "spotSize" : 0.450,
+      "tileCountX" : 2,
+      "tileCountY" : 7,
+      "tileType" : 4
+   },
+   "iterations" : 100
+}
+
+
+noname10
+{
+   "_class" : "NewtonSketch",
+   "iterations" : 2,
+   "path" : {
+      "Blur" : 0.0,
+      "Center.imag" : 0.0,
+      "Center.real" : 0.0,
+      "RMax" : 1.50,
+      "RMin" : 1.40,
+      "Rows" : 3,
+      "WaveAmp" : 0.50,
+      "WaveFreq" : 7.250,
+      "_class" : "RingPath",
+      "_id" : "defaultSketchPath"
+   }
+}
+
+
+noname11
+{
+   "Brightness" : 0.10,
+   "ColorScheme" : 0,
+   "MaxIter" : 10,
+   "MinIter" : 5,
+   "_class" : "BuddhabrotSketch",
+   "path" : {
+      "Blur" : 0.0,
+      "Center.imag" : 0.0,
+      "Center.real" : 0.0,
+      "RMax" : 1.50,
+      "RMin" : 1.40,
+      "Rows" : 3,
+      "WaveAmp" : 0.50,
+      "WaveFreq" : 7.250,
+      "_class" : "RingPath",
+      "_id" : "defaultSketchPath"
+   }
+}
+
+

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\json">
+      <UniqueIdentifier>{9a718b5d-fc57-4516-b013-34f5780eed02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\support">
+      <UniqueIdentifier>{d57345b9-4d4b-472e-a972-1156b1577b48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{7b05f16c-6626-41a8-9400-028371433f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\formulas">
+      <UniqueIdentifier>{6d0cdfdc-3a6e-4063-a765-b0287cb41f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\formulas">
+      <UniqueIdentifier>{15ff4cf9-4fa6-42eb-bab3-4d4f79405ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\support">
+      <UniqueIdentifier>{c1fe4144-c34f-4357-ac93-fa829fd326b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui">
+      <UniqueIdentifier>{a71851cc-c0a0-4610-bcc9-def7e41c6b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{8252c1dd-19ea-4ce0-bd5c-7de41fc33c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\json">
+      <UniqueIdentifier>{a4f6ab9b-872a-4f3b-9d94-5772887096a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewtonBasin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewtonBasinDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewtonBasinView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\ColorSet.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Complex.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\GLColor.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapping.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Point2D.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Random.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="NewtonSettingsDlg2.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexColorMap.cpp">
+      <Filter>Source Files\formulas</Filter>
+    </ClCompile>
+    <ClCompile Include="Formulas.cpp">
+      <Filter>Source Files\formulas</Filter>
+    </ClCompile>
+    <ClCompile Include="Plottable.cpp">
+      <Filter>Source Files\formulas</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="PlottablesManager.cpp">
+      <Filter>Source Files\formulas</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonSerializableFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexMap.cpp">
+      <Filter>Source Files\formulas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Canvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewtonBasin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewtonBasinDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewtonBasinView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexColorMap.h">
+      <Filter>Header Files\formulas</Filter>
+    </ClInclude>
+    <ClInclude Include="Formulas.h">
+      <Filter>Header Files\formulas</Filter>
+    </ClInclude>
+    <ClInclude Include="Plottable.h">
+      <Filter>Header Files\formulas</Filter>
+    </ClInclude>
+    <ClInclude Include="PlottablesManager.h">
+      <Filter>Header Files\formulas</Filter>
+    </ClInclude>
+    <ClInclude Include="SketchFormulas.h">
+      <Filter>Header Files\formulas</Filter>
+    </ClInclude>
+    <ClInclude Include="SketchPath.h">
+      <Filter>Header Files\formulas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Complex.h">
+      <Filter>Header Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapping.h">
+      <Filter>Header Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Random.h">
+      <Filter>Header Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="NewtonSettingsDlg2.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ColorSet.h">
+      <Filter>Header Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jsoncpp-src-0.5.0\include\json\json.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jsoncpp-src-0.5.0\include\json\autolink.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jsoncpp-src-0.5.0\include\json\features.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jsoncpp-src-0.5.0\include\json\reader.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jsoncpp-src-0.5.0\include\json\value.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jsoncpp-src-0.5.0\include\json\writer.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexMap.h">
+      <Filter>Header Files\formulas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\JsonSerializable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\NewtonBasin.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\NewtonBasin.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\NewtonBasinDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="NewtonSettingsDlg.htm" />
+    <None Include="ReadMe.txt" />
+    <None Include="DefaultPlots.txt">
+      <Filter>Data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NewtonBasin.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\NewtonBasin.manifest" />
+  </ItemGroup>
+</Project>
